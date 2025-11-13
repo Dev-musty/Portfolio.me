@@ -5,6 +5,7 @@ import { portfolio_data } from "../../data";
 import ProjectComp from "../component/Project";
 import notisys from "../assets/notification system.png";
 import country from "../assets/country.png";
+import ConnectSection from "../component/ConnectSection";
 const Project = () => {
   return (
     <>
@@ -38,18 +39,7 @@ const Project = () => {
           }
         />
         {/* Let's connect*/}
-        <div className="mt-[50px]">
-          <h2 className="text-center">Let's connect</h2>
-          <div className="social-links flex justify-center gap-[10px] mt-[15px]">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <span className="slash">//</span>Email
-            </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <span className="slash">//</span>WhatsApp
-            </a>
-          </div>
-          <Divider />
-        </div>
+        <ConnectSection />
       </main>
       <Footer />
     </>

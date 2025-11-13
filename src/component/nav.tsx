@@ -10,21 +10,21 @@ export const Nav = () => {
 
   return (
     <nav
-      className={`font-firacode flex justify-between px-[10px] transition-all duration-300 ease-in-out ${
+      className={`font-firacode flex justify-between px-[10px] md:px-[20px] transition-all duration-300 ease-in-out ${
         menuOpen ? "items-start py-[10px]" : "items-center py-[10px]"
       }`}
     >
-      <h3 className="text-[#E4E4E7] text-[16px]">{"<MustaphaRidwan/>"}</h3>
+      <h3 className="text-[#E4E4E7] text-[16px] md:text-[30px]">{"<MustaphaRidwan/>"}</h3>
       <div
         className={`menu flex flex-col bg-[#E4E4E7] text-[#000000] transition-all duration-300 ease-in-out ${
-          menuOpen ? "rounded-[10px] p-[10px]" : "rounded-[30px] p-[10px] h-[40px]"
+          menuOpen ? "rounded-[10px]  p-[10px]" : "rounded-[30px] md:rounded-[50px] p-[10px] md:w-[150px] h-[40px] md:h-[65px]"
         }`}
       >
         <div className="flex items-center justify-between">
-          <p className="mr-[10px] text-[16px]">Menu</p>
+          <p className="mr-[10px] text-[16px] md:text-[33px] md:font-medium">Menu</p>
           <button onClick={handleClick}>
             <FaAngleDown
-              className={`text-[#000000] text-[20px] pt-[3px]
+              className={`text-[#000000] text-[20px] md:text-[35px] pt-[3px]
                         transition-transform duration-300
                         ${menuOpen ? "rotate-180" : "rotate-0"}`}
             />

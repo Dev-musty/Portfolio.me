@@ -9,12 +9,12 @@ const Education = ({ title, about, timeLine, state }: EduProps) => {
     <>
       <div>
         <div>
-          <p className="mb-[10px]">{title}</p>
+          <p className="mb-[10px] md:text-[30px]">{title}</p>
         </div>
-        <p className="text-[11px]">{timeLine}</p>
-        <p className="text-[11px]">{about}</p>
+        <p className="text-[11px] md:text-[25px] opacity-70">{timeLine}</p>
+        <p className="text-[11px] md:text-[25px] opacity-70">{about}</p>
         {state.map((s, index) => {
-          return <li key={index} className="text-[13px] mt-[8px] mb-[5px]"><span className="text-[20px]">#</span> {s}</li>;
+          return <li key={index} className="text-[13px] md:text-[21px] mt-[8px] mb-[5px]"><span className="text-[20px] md:text-[30px]">#</span> {s}</li>;
         })}
         <hr className="mb-[10px]" />
       </div>
