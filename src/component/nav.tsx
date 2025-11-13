@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa6"; // Only need one icon
 import { Link } from "react-router-dom";
-import resume from '../assets/Mustapha Ridwan Temitope Resume (1).pdf'
+import resume from '../assets/MUSTHAPHA RIDWAN RESUME.pdf'
 export const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleClick = () => {

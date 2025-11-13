@@ -4,7 +4,7 @@ import { portfolio_data } from "../../data";
 import { Link } from "react-router-dom";
 import ProjectComp from "../component/Project";
 import Footer from "../component/Footer";
-import resume from "../assets/Mustapha Ridwan Temitope Resume (1).pdf";
+import resume from "../assets/MUSTHAPHA RIDWAN RESUME.pdf";
 import ConnectSection from "../component/ConnectSection";
 import UptoSection from "../component/UptoSection";
 import Experience from "../component/Experience";

@@ -2,7 +2,7 @@ import Divider from "../component/Divider"
 import Footer from "../component/Footer"
 import ContactForm from "../component/Form"
 import { Nav } from "../component/nav"
-import resume from '../assets/Mustapha Ridwan Temitope Resume (1).pdf'
+import resume from '../assets/MUSTHAPHA RIDWAN RESUME.pdf'
 import { portfolio_data } from "../../data"
 const Contact = () => {
   return (
