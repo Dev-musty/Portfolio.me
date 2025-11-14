@@ -7,9 +7,9 @@ function App() {
     <>
       <Snowfall
         color="#3ECF8E"
-        snowflakeCount={200}
+        snowflakeCount={700}
         radius={[0.5, 1.5]}
-        speed={[0.1, 0.12]}
+        speed={[0.1, 3.0]}
         style={{
           position: "fixed",
           width: "100vw",

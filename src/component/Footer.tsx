@@ -42,8 +42,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="flex items-center justify-center text-[10px] ">
-          <span className="text-[20px] mr-2">&copy;</span>
+        <p className="flex items-center justify-center text-[10px] md:text-[20px] ">
+          <span className="text-[20px] md:text-[40px] mr-2">&copy;</span>
           <span>2025 Mustapha Ridwan.</span>
         </p>
       </footer>
